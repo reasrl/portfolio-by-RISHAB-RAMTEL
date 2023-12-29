@@ -14,29 +14,63 @@
   </head>
   <body>
     <nav>
-      <img src="images/22.png" alt="" class="22" width="100" height="100" />
+      <img src="22.png" alt="" class="22" width="100" height="100" />
       <ul>
-        <li>Home</li>
+        <li>Portfolio</li>
         <li>Services</li>
         <li>my works</li>
-        <li>About me</li>
+        <li>
+          <a
+            href="https://www.instagram.com/riftbyreas?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="
+          ></a
+          >About me
+        </li>
       </ul>
       <button class="nav-btn">
-        Get started <img src="images/arrow-white.png" alt="" />
+        Get started <img src="arrow-white.png" alt="" />
       </button>
     </nav>
     <div class="header">
       <h1>RISHAB<br /></h1>
       <h2>RAMTEL</h2>
       <div class="btn-container">
-        <button>Request call back</button>
-        <button>Know more</button>
+        <button class="btn-dark">
+          Request call <img src="phone.png" alt="" />
+        </button>
+        <button class="btn-light">
+          Know more <img src="arrow-black.png" alt="" />
+        </button>
       </div>
       <p>
-        Passion vfx and 3D artist,Cinematographer,Videoeditor,Photographer with
-        3 years of experience.
+        VFX & 3D artist,Cinematographer,Videoeditor,Photographer with 3 years of
+        experience.
         <br />& bit growing knowledge in (Html,CSS & JS)
       </p>
+      <video
+        class="video00"
+        autoplay
+        muted
+        loop
+        src="my youtube logo 22.mp4"
+      ></video>
     </div>
+    <script>
+      let navbar = document.querySelector("nav");
+      window.onscroll = function () {
+        if (window.scrollY > 0) {
+          navbar.style.background = "#FFC0CB";
+        } else {
+          navbar.style.background = "transparent";
+        }
+      };
+    </script>
+  </body>
+
+  <body>
+    hello
+    <br />
+    My Portfolio is still on progress so for more information on my works you
+    can mail me or msg me on my instagram i can send you drive link for refrence
+    of my recent works. Thankyou for visiting.
   </body>
 </html>
