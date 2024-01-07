@@ -134,3 +134,27 @@ nav .logo {
   padding: 0px 0px 0px 0px;
   border-radius: 45%;
 }
+.mypic1 {
+  width: 500px;
+  height: 500px;
+  padding: 50px 10px 10px 100px;
+  right: 10px;
+  margin-left: -300px;
+  background: #ffccc1;
+  border-radius: 100%;
+}
+.my {
+  margin-left: 250px;
+  margin-top: -400px;
+  width: 350px;
+}
+.video01 {
+  width: 30%;
+  max-width: 300px;
+  position: absolute;
+  right: 3%;
+  border-radius: 300px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
